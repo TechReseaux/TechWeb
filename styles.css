@@ -1,0 +1,60 @@
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* En-tête */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+#services .service {
+  margin: 1em 0;
+}
+
+/* Formulaire de contact */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input, textarea, button {
+  margin: 0.5em 0;
+}
+
+button {
+  padding: 0.5em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
